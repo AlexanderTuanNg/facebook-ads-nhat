@@ -1,0 +1,36 @@
+{
+  "_note": "Selector giao diện Facebook (desktop, www.facebook.com). FB đổi giao diện thì sửa tại đây. Mỗi mục là danh sách phương án thử lần lượt. role:<role>|<regex tên> dùng get_by_role; text:<regex> dùng get_by_text; css:<selector>.",
+  "composer_open": [
+    "role:button|^(Bạn viết gì đi|Viết nội dung|Write something|Bạn đang nghĩ gì)",
+    "text:^(Bạn viết gì đi|Write something)",
+    "css:div[role='main'] div[role='button'] span:has-text('Bạn viết gì')"
+  ],
+  "composer_dialog": [
+    "css:div[role='dialog']:has(div[role='textbox'])"
+  ],
+  "composer_textbox": [
+    "css:div[role='dialog'] div[role='textbox'][contenteditable='true']"
+  ],
+  "photo_input": [
+    "css:div[role='dialog'] input[type='file'][accept*='image']",
+    "css:input[type='file'][accept*='image']"
+  ],
+  "post_button": [
+    "role:button|^(Đăng|Post)$"
+  ],
+  "checkpoint_markers": [
+    "text:(checkpoint|Tài khoản của bạn đã bị khóa|Your account has been locked|Chúng tôi đã tạm khóa|We suspended|Bạn tạm thời bị chặn|You're Temporarily Blocked|Tài khoản của bạn bị hạn chế|Your account is restricted)"
+  ],
+  "pending_markers": [
+    "text:(đang chờ phê duyệt|pending approval|Bài viết của bạn đang chờ)"
+  ],
+  "login_markers": [
+    "css:input[name='email']",
+    "css:form[action*='login']"
+  ],
+  "photo_button": [
+    "css:div[role='dialog'] [aria-label='Ảnh/video']",
+    "css:div[role='dialog'] [aria-label='Photo/video']",
+    "css:div[role='dialog'] [aria-label*='Ảnh']"
+  ]
+}

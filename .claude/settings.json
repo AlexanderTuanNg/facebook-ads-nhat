@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python tools/hooks/state_check.py",
+            "timeout": 30,
+            "statusMessage": "Kiểm tra STATE.md đã cập nhật"
+          }
+        ]
+      }
+    ]
+  }
+}

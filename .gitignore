@@ -1,0 +1,39 @@
+# ==== BÍ MẬT & ĐĂNG NHẬP: không bao giờ đưa lên GitHub ====
+.env
+.env.*
+!.env.example
+.profiles/
+*.key
+*secret*
+*.pem
+
+# ==== DỮ LIỆU CÁ NHÂN (khách, lead, nhóm đã cào) ====
+data/*
+!data/.gitkeep
+workspace/lead-chua-nhan-tin.md
+workspace/kich-ban-nhan-tin-lead.md
+workspace/reports/lead-ngay/
+workspace/reports/qc-ngay/
+workspace/reports/qc-sang/
+workspace/reports/qc-tuan/
+workspace/reports/backup/
+workspace/reports/*.csv
+
+# ==== TƯ LIỆU NẶNG / ẢNH NGƯỜI THẬT (1,2 GB) ====
+assets/**
+!assets/README.md
+!assets/**/
+!assets/**/README.md
+!assets/**/cau-hinh*.json
+!assets/**/kich-ban-loi-doc.txt
+
+# ==== Tạm / máy ====
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+.DS_Store
+*-tam.mp4
+dbg-*.png
+scratchpad/
+workspace/reports/xem-truoc/

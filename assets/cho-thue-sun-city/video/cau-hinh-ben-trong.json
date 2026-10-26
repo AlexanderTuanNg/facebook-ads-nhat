@@ -1,0 +1,120 @@
+{
+ "_ghi_chu": "26/10 video 2 'bên trong văn phòng' theo mẫu Reel Hanoi Office người dùng gửi (cảnh phủ kín màn hình, ô chữ trắng giữa, chữ nhỏ trên đỉnh); tools/video_ben_trong.py; lời đọc edge-tts HoaiMy +8% (lint PASS); chú thích bài PHẢI có 'Video sử dụng giọng đọc AI'",
+ "doan": [
+  {
+   "loai": "anh_ngang",
+   "file": "assets/cho-thue-sun-city/15-toa-sun-city-final.jpg",
+   "giay": 5.9,
+   "giu_mau": true
+  },
+  {
+   "loai": "anh_ngang",
+   "file": "assets/cho-thue-sun-city/15-toa-sun-city-final.jpg",
+   "giay": 4.6,
+   "giu_mau": true,
+   "cat": [
+    0.15,
+    0.08,
+    0.9,
+    0.78
+   ]
+  },
+  {
+   "loai": "video",
+   "file": "assets/cho-thue-sun-city/video-ben-trong-tang-2.mov",
+   "tu": 0,
+   "dai": 6.9,
+   "cx": 0.5
+  },
+  {
+   "loai": "anh",
+   "file": "assets/cho-thue-sun-city/08-van-phong-tang-2-sun-city.jpg",
+   "giay": 2.85,
+   "cx": 0.5,
+   "cat_tren": 0.07,
+   "cat_duoi": 0.15
+  },
+  {
+   "loai": "anh",
+   "file": "assets/cho-thue-sun-city/01-van-phong-tang-2-sun-city.jpg",
+   "giay": 2.85,
+   "cx": 0.55,
+   "cat_tren": 0.07,
+   "cat_duoi": 0.15
+  },
+  {
+   "loai": "anh",
+   "file": "assets/cho-thue-sun-city/10-van-phong-tang-2-sun-city.jpg",
+   "giay": 2.85,
+   "cx": 0.5,
+   "cat_tren": 0.07,
+   "cat_duoi": 0.15
+  },
+  {
+   "loai": "anh",
+   "file": "assets/cho-thue-sun-city/07-van-phong-tang-2-sun-city.jpg",
+   "giay": 2.85,
+   "cx": 0.5,
+   "cat_tren": 0.07,
+   "cat_duoi": 0.15
+  }
+ ],
+ "o_chu": [
+  {
+   "tu": 0.3,
+   "den": 5.7,
+   "y": 790,
+   "dong": [
+    "CHO THUÊ VĂN PHÒNG 240 – 1.200 m²"
+   ]
+  },
+  {
+   "tu": 5.95,
+   "den": 10.4,
+   "y": 790,
+   "dong": [
+    "CÙNG TOÀ NHÀ: VNVC · SHB · MANULIFE"
+   ]
+  },
+  {
+   "tu": 10.7,
+   "den": 16.6,
+   "dong": [
+    "KHÔNG GIAN MỞ · NHIỀU ÁNH SÁNG",
+    "Diện tích linh hoạt 240 – 1.200 m²"
+   ]
+  },
+  {
+   "tu": 16.9,
+   "den": 20.9,
+   "dong": [
+    "HẦM ĐỂ XE · THANG MÁY",
+    "Vị trí treo biển hiệu mặt tiền"
+   ]
+  },
+  {
+   "tu": 21.1,
+   "den": 24.3,
+   "dong": [
+    "PHÙ HỢP VĂN PHÒNG ĐẠI DIỆN",
+    "và văn phòng công ty"
+   ]
+  },
+  {
+   "tu": 24.5,
+   "den": 28.7,
+   "dong": [
+    "GỌI/ZALO 0965.539.599",
+    "Toà Sun City · 1B Hùng Vương"
+   ]
+  }
+ ],
+ "dau_trang": [
+  "SUN CITY · 1B HÙNG VƯƠNG",
+  "Gọi/Zalo 0965.539.599"
+ ],
+ "loi_doc": "assets/cho-thue-sun-city/video/loi-doc-ben-trong-v2.mp3",
+ "doc_tre": 0.4,
+ "nhac_nen": true,
+ "ra": "assets/cho-thue-sun-city/video/ben-trong-sun-city-nhap.mp4"
+}

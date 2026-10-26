@@ -1,0 +1,525 @@
+{
+ "lat": 21.2739422,
+ "lon": 106.2031763,
+ "nhan_chinh": "SUN CITY · HÙNG VƯƠNG",
+ "phu_de": "Văn phòng tầng 2 · trung tâm phường Bắc Giang",
+ "moc": [
+  {
+   "ten": "UBND thành phố Bắc Ninh",
+   "phu": "0,4 km (*)",
+   "lat": 21.2759154,
+   "lon": 106.200805,
+   "hien": [
+    0.43,
+    0.6
+   ],
+   "cao": 20
+  },
+  {
+   "ten": "Trung tâm hành chính công",
+   "phu": "1,1 km (*)",
+   "lat": 21.2809594,
+   "lon": 106.2016282,
+   "hien": [
+    0.45,
+    0.6
+   ],
+   "cao": 30
+  },
+  {
+   "ten": "Công viên Hoàng Hoa Thám",
+   "lat": 21.27334,
+   "lon": 106.20782,
+   "hien": [
+    0.825,
+    1.01
+   ],
+   "phu": "ngay cạnh"
+  }
+ ],
+ "anh_noi": "assets/cho-thue-sun-city/15-toa-sun-city-final.jpg",
+ "the_cuoi": {
+  "anh": [
+   "assets/cho-thue-sun-city/08-van-phong-tang-2-sun-city.jpg",
+   "assets/cho-thue-sun-city/01-van-phong-tang-2-sun-city.jpg",
+   "assets/cho-thue-sun-city/02-van-phong-tang-2-sun-city.jpg",
+   "assets/cho-thue-sun-city/07-van-phong-tang-2-sun-city.jpg",
+   "assets/cho-thue-sun-city/10-van-phong-tang-2-sun-city.jpg"
+  ],
+  "dong": [
+   "Diện tích linh hoạt 240 – 1.200 m²",
+   "Phù hợp văn phòng đại diện, công ty đa quốc gia"
+  ],
+  "sdt": "0965.539.599",
+  "cat_duoi": 0.15,
+  "cat_tren": 0.07
+ },
+ "zoom_tu": 12.3,
+ "zoom_den": 17.6,
+ "giay_ban_do": 13.74,
+ "giay_the": 14.0,
+ "ra": "assets/cho-thue-sun-city/video/dinh-vi-sun-city-nhap.mp4",
+ "nhac_nen": true,
+ "loi_doc": "assets/cho-thue-sun-city/video/loi-doc-hoaimy-v4.mp3",
+ "doc_tre": 0.4,
+ "giay_bay": 13.74,
+ "ten_ghim": "Sun City · 1B Hùng Vương",
+ "ban_kinh_m": 38,
+ "ban_do_video": "assets/cho-thue-sun-city/video/bay-ve-tinh.mp4",
+ "_ghi_chu_tam": "tâm = điểm VNVC Bắc Giang trên Google Maps (địa chỉ 1B đường Hùng Vương), ghim Sun City người dùng gửi cách ~25 m trên mặt đường",
+ "anh_noi_chu": "Toà Sun City · mặt tiền Hùng Vương",
+ "hien_vung": 0.18,
+ "hien_ghim": 0.16,
+ "duong": [
+  {
+   "ten": "Hùng Vương",
+   "diem": [
+    [
+     [
+      21.28192,
+      106.1974431
+     ],
+     [
+      21.28164,
+      106.1976417
+     ],
+     [
+      21.2814594,
+      106.1977569
+     ],
+     [
+      21.2803907,
+      106.1983993
+     ],
+     [
+      21.2792188,
+      106.1991579
+     ],
+     [
+      21.2789007,
+      106.1993638
+     ],
+     [
+      21.2784304,
+      106.199665
+     ],
+     [
+      21.2780393,
+      106.1999155
+     ],
+     [
+      21.2775577,
+      106.2002239
+     ],
+     [
+      21.2773298,
+      106.2003698
+     ],
+     [
+      21.2770942,
+      106.2005207
+     ],
+     [
+      21.2761116,
+      106.2011498
+     ],
+     [
+      21.2750755,
+      106.2018282
+     ],
+     [
+      21.2749098,
+      106.2019615
+     ],
+     [
+      21.2747241,
+      106.202092
+     ],
+     [
+      21.2738683,
+      106.2026538
+     ],
+     [
+      21.2732275,
+      106.2030358
+     ],
+     [
+      21.2723598,
+      106.2035817
+     ],
+     [
+      21.2715473,
+      106.2040813
+     ],
+     [
+      21.2714671,
+      106.204133
+     ]
+    ],
+    [
+     [
+      21.2819931,
+      106.1975253
+     ],
+     [
+      21.281518,
+      106.1978534
+     ],
+     [
+      21.2814194,
+      106.197914
+     ],
+     [
+      21.2804465,
+      106.1985119
+     ],
+     [
+      21.2796431,
+      106.1990452
+     ],
+     [
+      21.2789682,
+      106.1994931
+     ],
+     [
+      21.2786604,
+      106.1996911
+     ],
+     [
+      21.2785074,
+      106.1997894
+     ],
+     [
+      21.2781111,
+      106.2000443
+     ],
+     [
+      21.2776305,
+      106.2003533
+     ],
+     [
+      21.2771624,
+      106.2006473
+     ],
+     [
+      21.2761837,
+      106.201282
+     ],
+     [
+      21.2759537,
+      106.2014312
+     ],
+     [
+      21.2755376,
+      106.2016981
+     ],
+     [
+      21.27513,
+      106.2019521
+     ],
+     [
+      21.2749794,
+      106.2021418
+     ],
+     [
+      21.2745423,
+      106.202431
+     ],
+     [
+      21.2742475,
+      106.2026187
+     ],
+     [
+      21.2737576,
+      106.202927
+     ],
+     [
+      21.2733191,
+      106.203206
+     ],
+     [
+      21.2724606,
+      106.2037621
+     ],
+     [
+      21.2716268,
+      106.2042823
+     ],
+     [
+      21.2712741,
+      106.2044973
+     ]
+    ],
+    [
+     [
+      21.2674521,
+      106.2067771
+     ],
+     [
+      21.2661448,
+      106.2077488
+     ],
+     [
+      21.2661098,
+      106.2077749
+     ],
+     [
+      21.2652611,
+      106.208371
+     ],
+     [
+      21.264373,
+      106.209084
+     ],
+     [
+      21.2626847,
+      106.2104029
+     ],
+     [
+      21.262608,
+      106.2104574
+     ],
+     [
+      21.2617478,
+      106.2111234
+     ],
+     [
+      21.2615118,
+      106.2113061
+     ],
+     [
+      21.2608439,
+      106.2118232
+     ],
+     [
+      21.2606637,
+      106.2119633
+     ],
+     [
+      21.2602339,
+      106.2122975
+     ],
+     [
+      21.2591949,
+      106.2131071
+     ],
+     [
+      21.2585167,
+      106.2136355
+     ]
+    ],
+    [
+     [
+      21.267501,
+      106.2068557
+     ],
+     [
+      21.2667923,
+      106.2073795
+     ],
+     [
+      21.2663226,
+      106.2077894
+     ],
+     [
+      21.2658708,
+      106.2081734
+     ],
+     [
+      21.2656969,
+      106.2083145
+     ],
+     [
+      21.265374,
+      106.208558
+     ],
+     [
+      21.2644807,
+      106.2092507
+     ],
+     [
+      21.2636258,
+      106.209864
+     ],
+     [
+      21.2627695,
+      106.2105258
+     ],
+     [
+      21.2626944,
+      106.2105843
+     ],
+     [
+      21.2625359,
+      106.2107078
+     ],
+     [
+      21.261309,
+      106.2117168
+     ],
+     [
+      21.2607585,
+      106.2121443
+     ],
+     [
+      21.2593413,
+      106.2132452
+     ],
+     [
+      21.2586274,
+      106.2137997
+     ]
+    ]
+   ],
+   "mau": "255,204,0",
+   "rong": 6,
+   "rong_sang": 18,
+   "hien": [
+    0.12,
+    0.32
+   ]
+  }
+ ],
+ "canh": [
+  {
+   "t": 0,
+   "center": [
+    21.271,
+    106.2045
+   ],
+   "zoom": 12.4,
+   "pitch": 20,
+   "bearing": -12
+  },
+  {
+   "t": 0.18,
+   "center": [
+    21.2771,
+    106.2033
+   ],
+   "zoom": 14.0,
+   "pitch": 30,
+   "bearing": -2
+  },
+  {
+   "t": 0.6,
+   "center": [
+    21.2771,
+    106.2033
+   ],
+   "zoom": 14.05,
+   "pitch": 32,
+   "bearing": 3
+  },
+  {
+   "t": 0.82,
+   "center": [
+    21.2737,
+    106.2055
+   ],
+   "zoom": 14.4,
+   "pitch": 40,
+   "bearing": 10
+  },
+  {
+   "t": 1,
+   "center": [
+    21.2737,
+    106.2055
+   ],
+   "zoom": 14.6,
+   "pitch": 46,
+   "bearing": 14
+  }
+ ],
+ "sentinel": {
+  "tam": [
+   21.2722,
+   106.2045
+  ],
+  "rong_km": 24,
+  "cao_km": 24,
+  "canh": "S2C_48QXJ_20260107_0_L2A"
+ },
+ "anh_ve_tinh": {
+  "file": "assets/cho-thue-sun-city/video/sentinel.jpg",
+  "goc": [
+   [
+    106.0896414,
+    21.3813927
+   ],
+   [
+    106.3211091,
+    21.3797298
+   ],
+   [
+    106.3191754,
+    21.162939
+   ],
+   [
+    106.0880464,
+    21.1645835
+   ]
+  ],
+  "nguon": "Contains modified Copernicus Sentinel data 2026",
+  "canh": "S2C_48QXJ_20260107_0_L2A",
+  "ngay_chup": "2026-01-07"
+ },
+ "do_cao": 1.0,
+ "bang_tren": {
+  "dong1": "CHO THUÊ VĂN PHÒNG 240 – 1.200 m²",
+  "dong2": "Mặt tiền Hùng Vương · trung tâm phường Bắc Giang",
+  "sdt": "0965.539.599"
+ },
+ "phu_de_tat": true,
+ "anh_net": {
+  "r": 1.4,
+  "p": 90
+ },
+ "chu_thich": "(*) Khoảng cách ước tính theo đường bộ, dữ liệu OpenStreetMap · tham khảo",
+ "hien_chu_thich": [
+  0.43,
+  0.6
+ ],
+ "ghim_duoi": true,
+ "ghim_cao": 50,
+ "nhan_ai": false,
+ "_ghi_chu_nhan_ai": "26/10 người dùng 'bỏ hết chữ giọng đọc AI đi' → không in trên hình; BẮT BUỘC ghi 'Video sử dụng giọng đọc AI' trong chú thích bài đăng (NĐ 142/2026 Đ18: nhãn ở tiêu đề/mô tả — cần luật sư xác nhận)",
+ "tieu_de_top": 330,
+ "nhan_tren": 452,
+ "anh_noi_giu_mau": true,
+ "giay_anh_noi": 6.43,
+ "anh_noi_chu_duoi": [
+  "Cùng toà nhà: VNVC · SHB · Manulife",
+  "Biển hiệu mặt tiền · Hầm để xe · Thang máy"
+ ],
+ "raster_paint": {
+  "raster-saturation": -0.5,
+  "raster-brightness-max": 0.7,
+  "raster-contrast": 0.15
+ },
+ "chen_giua_ban_do": {
+  "tu": 8.2,
+  "den": 11.3,
+  "hien_cach": 0.45,
+  "hang": [
+   {
+    "anh": "assets/cho-thue-sun-city/15-toa-sun-city-final.jpg",
+    "giu_mau": true,
+    "ten": "Toà Sun City",
+    "phu": "1B Hùng Vương · văn phòng tầng 2"
+   },
+   {
+    "anh": "assets/cho-thue-sun-city/16-ubnd-thanh-pho-bac-ninh.jpg",
+    "ten": "UBND thành phố Bắc Ninh",
+    "phu": "cách 0,4 km (*)"
+   },
+   {
+    "anh": "assets/cho-thue-sun-city/17-trung-tam-hanh-chinh-cong.jpg",
+    "ten": "Trung tâm hành chính công",
+    "phu": "cách 1,1 km (*)"
+   }
+  ],
+  "chu_thich": "(*) Khoảng cách ước tính theo đường bộ, dữ liệu OpenStreetMap · tham khảo"
+ }
+}

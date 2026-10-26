@@ -1,0 +1,70 @@
+{
+  "_note": "Regex (không phân biệt hoa thường) mà compliance lint quét trong nội dung bài. Nguồn: brief §6 + checklist F1–F4.",
+  "_F1_moc_gia": {
+    "_note": "Mốc giá được nói công khai (KM7, checklist §G). Người dùng chốt 25/09/2026: 'chỉ khoảng 1 tỷ là mua được đất'. Chỉ các cụm khớp F1_gia_duoc_phep được che khỏi nhóm F1_gia; mọi con số giá khác vẫn FAIL. Hết hạn sau F1_moc_gia_han_ngay ngày kể từ F1_moc_gia_xac_nhan (ngày YYYY-MM-DD) → không che nữa (mọi con số giá lại FAIL). Gia hạn/đổi mốc: sửa 3 trường dưới + checklist §G KM7 + STATE; kiểm bằng python tools/test_lint_gia.py. | 14/10/2026 người dùng xác nhận còn lô DƯỚI 1 tỷ, chốt câu 'CHỈ DƯỚI 1 TỶ LÀ CÓ CƠ HỘI SỞ HỮU' → thêm mẫu 'chỉ dưới 1 tỷ', xác nhận lại mốc ngày 2026-10-14 (hạn 30 ngày → 13/11). | 20/10/2026 người dùng xác nhận CĐT đã có Quyết định chính sách trả trước 500 triệu (chưa đưa số/ngày) → thêm mẫu 'trả trước (từ) 500 triệu' (chỉ khi có chữ 'trả trước'; '500 triệu' đứng riêng vẫn FAIL); dòng (*) bắt buộc. | 21/10/2026 chính sách bán hàng tháng 10 (ảnh CSBH): 'CHỈ VỚI 500 TRIỆU ĐÃ SỞ HỮU LÔ ĐẤT' (người dùng chọn câu này sau khi được báo rủi ro gây hiểu nhầm), trả trước 500 triệu cho lô đến khoảng 1,3 tỷ, 40%/15%×4, sổ T+180 → thêm 2 mẫu; xác nhận mốc 2026-10-21 (hạn 20/11).",
+    "F1_moc_gia_xac_nhan": "2026-10-21",
+    "F1_moc_gia_han_ngay": 30,
+    "F1_gia_duoc_phep": [
+      "(?:chỉ\\s+(?:cần\\s+)?)?(?:(?:tầm|khoảng|cỡ|chừng)\\s+)+(?<![\\d.,])1\\s*(?:tỷ|tỉ)(?!\\s*(?:\\d|(?:rưỡi|mốt|hai|ba|bốn|năm|sáu|bảy|tám|chín)(?![A-Za-zÀ-ỹ])))(?![0-9A-Za-zÀ-ỹ])",
+      "(?:chỉ\\s+)?dưới\\s+(?<![\\d.,])1\\s*(?:tỷ|tỉ)(?!\\s*(?:\\d|(?:rưỡi|mốt|hai|ba|bốn|năm|sáu|bảy|tám|chín)(?![A-Za-zÀ-ỹ])))(?![0-9A-Za-zÀ-ỹ])",
+      "(?:chỉ\\s+(?:cần\\s+)?)?trả\\s+trước\\s+(?:từ\\s+)?(?<![\\d.,])500\\s*(?:triệu|tr)(?![0-9A-Za-zÀ-ỹ])",
+      "(?:chỉ\\s+(?:với|cần)|trả\\s+trước|đợt\\s+đầu|thanh\\s+toán\\s+trước)\\s+500\\s*triệu(?![0-9A-Za-zÀ-ỹ])",
+      "(?:đến|tới)\\s+khoảng\\s+1,3\\s*(?:tỷ|tỉ)(?![0-9A-Za-zÀ-ỹ])"
+    ]
+  },
+  "F1_gia": [
+    "\\d[\\d.,]*\\s*(tr|triệu|tỷ|ty|k|nghìn|ngàn|đ|vnđ|vnd)\\b",
+    "\\d[\\d.,]*\\s*(tr|triệu)\\s*/\\s*m",
+    "chỉ từ\\s*\\d",
+    "giá (chỉ|từ|gốc|sỉ)\\s*\\d",
+    "giá\\s+(gốc|sỉ|sốc)\\b"
+  ],
+  "F2_tu_cam": [
+    "(?<!thống )(?<!duy )(?<!độc )(?<!rẻ )\\bnhất\\b(?! định)(?! là)(?! quán)",
+    "duy nhất",
+    "độc nhất",
+    "số 1\\b",
+    "số một",
+    "rẻ nhất",
+    "\\bx2\\b",
+    "không rủi ro",
+    "sắp lên thành phố",
+    "sổ đỏ trao tay",
+    "nhận sổ ngay",
+    "0 đồng",
+    "không đồng",
+    "ai cũng vay được",
+    "cam kết (lợi nhuận|tăng giá|mua lại|giải ngân|cho vay)",
+    "chắc chắn tăng",
+    "bảo đảm giải ngân"
+  ],
+  "F3_chu_de_cam": [
+    "dư nợ",
+    "giải chấp",
+    "thế chấp",
+    "GPMB",
+    "giải phóng mặt bằng",
+    "nhà thầu",
+    "quyết toán",
+    "MB ?Bank",
+    "Blue ?Sky",
+    "giá Sở",
+    "ngân hàng tài trợ"
+  ],
+  "F4_dia_danh": [
+    "tỉnh Bắc Giang",
+    "tỉnh Bắc Ninh"
+  ],
+  "H_quang_cao": [
+    "tiềm năng tăng giá",
+    "dòng tiền\\s*(ổn định\\s*)?(khoảng|tầm|từ|đều)?\\s*\\d",
+    "(lô|căn|hàng|giỏ hàng|quỹ)\\s+nội bộ",
+    "quỹ căn ngoại giao",
+    "\\+\\s*\\d[\\d.,]*\\s*(KH|khách)\\b"
+  ],
+  "placeholder": [
+    "\\[ĐIỀN",
+    "\\[CẦN XÁC NHẬN",
+    "\\[ĐỀ XUẤT"
+  ]
+}

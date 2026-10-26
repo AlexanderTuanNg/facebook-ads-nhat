@@ -1,0 +1,32 @@
+{
+  "timezone": "Asia/Ho_Chi_Minh",
+  "require_human_approval": true,
+  "compliance_mode": "test",
+  "graph_api_version": "v23.0",
+  "post_view_metrics": [],
+  "limits": {
+    "profile_group_posts_per_day": 16,
+    "profile_group_posts_per_week": 112,
+    "min_minutes_between_posts": 25,
+    "same_group_min_days": 3
+  },
+  "arm_b": {
+    "typing_delay_ms": [
+      40,
+      140
+    ],
+    "pre_action_delay_s": [
+      3,
+      9
+    ],
+    "post_cooldown_s": [
+      60,
+      180
+    ],
+    "headless": false
+  },
+  "arm_a_wait_minutes": 10,
+  "similarity_threshold": 0.6,
+  "_dot_thu_nhieu_group": "25/09 23:5x: người dùng chọn '9 group, cách 5 phút' (hộp thoại xác nhận rủi ro) cho lượt thử 'đăng maximum được bao nhiêu group trong 1 lần'; dừng ngay khi Facebook cảnh báo; thử xong đặt lại. Bản cũ: workspace/reports/backup/2026-09-25-A2/settings.truoc-dot-thu.json",
+  "_giam_tai_1110": "11/10 nick bị hạn chế gửi tin → người dùng chọn 'giảm tải, giữ đăng bài': 16→8 bài/ngày (trần tuần GIỮ 112: hạ 56 làm chặn mọi bài vì 7 ngày qua đã 79 bài — sửa 11/10 21:00); ket_ban tạm tắt trong lich_dang.VIEC_NGAY; vao_nhom 2/ngày"
+}
