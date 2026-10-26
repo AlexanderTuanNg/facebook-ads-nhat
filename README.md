@@ -8,6 +8,8 @@ Dự án thật đang chạy: KDC Đồng Lạc (Yên Thế Golden Hill) và d�
 
 ## 1. Cài đặt từ đầu (Windows, Python 3.12)
 
+> Mã dựng video dùng font `C:/Windows/Fonts/segoeui*.ttf` (tools/video_dinh_vi.py, video_ben_trong.py). Chạy trên Linux/macOS thì đổi hằng `FONT`, `FONT_THUONG` sang font có dấu tiếng Việt.
+
 ```bash
 git clone <repo> && cd <repo>
 python -m venv .venv && .venv\Scripts\activate
@@ -52,6 +54,8 @@ python tools/sentinel_cat.py assets/<du-an>/cau-hinh.json   # cắt ảnh vệ t
 python tools/bay_ve_tinh.py   assets/<du-an>/cau-hinh.json   # bay 3D (MapLibre + địa hình AWS Terrarium), nhãn km, đường tỉnh
 python tools/video_dinh_vi.py assets/<du-an>/cau-hinh.json   # ghép: dải tiêu đề + SĐT, flycam, ảnh, thẻ cuối, lời đọc, nhạc, −14 LUFS
 python tools/video_ben_trong.py assets/<du-an>/cau-hinh-ben-trong.json   # video "đi bộ xem bên trong" kiểu Reel
+python tools/tao_giong.py "<lời đọc>" vi-VN-HoaiMyNeural "+8%" <out.mp3>   # giọng đọc + mốc câu (nháp)
+python tools/kiem_nhan_video.py assets/<du-an>/cau-hinh.json 0.3,0.5,0.7     # đo nhãn đè nhau trước khi dựng
 ```
 Cấu hình mẫu: `assets/dong-lac/video-dinh-vi/cau-hinh.json`, `assets/cho-thue-sun-city/video/cau-hinh*.json`.
 Khoảng cách đo bằng OSRM, toạ độ đối chiếu Google Maps ↔ OpenStreetMap. Giọng đọc: edge-tts (nháp) — bản quảng cáo nên dùng Azure Speech (`.env`).
