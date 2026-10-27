@@ -4,7 +4,7 @@
 > Cập nhật trước khi kết thúc lượt có thay đổi file (Stop hook). "Việc vừa làm" ≤ 5 dòng, cũ hơn → `workspace/reports/log.md`. Quyết định → `workspace/quyet-dinh.md` (chỉ thêm, không xoá).
 > STATE đầy đủ trước khi dựng khuôn: `workspace/reports/log.md` mục "Lưu trữ nguyên văn STATE.md lúc 20/10/2026 18:43" (bản trước 28/09: cũng trong log).
 
-Cập nhật lần cuối: 2026-10-27 11:3x (đợt 4 nhóm ngành nghề: gỗ/ván bóc/gà đồi/kinh doanh 792–801; SC01 385 không lên → đăng lại 16:21)
+Cập nhật lần cuối: 2026-10-27 11:3x (đợt 4 nhóm ngành nghề: gỗ/ván bóc/gà đồi/kinh doanh 792–801; SC01 385 không lên → đăng lại 16:21; 3 bài SC mới 387–389 người dùng duyệt 13:1x)
 
 ## 1. Thông điệp chính
 Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo bài · B Đánh giá · C Đăng bài · D Quản lý quảng cáo** — để sau này đóng gói thành app nhân rộng.
@@ -29,7 +29,7 @@ Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo
 5. Cách đóng gói, giá thử M1, chi phí đội mỗi tháng (`lo-trinh-san-pham-app.md` §7) — **người dùng** — 30/11.
 
 ## 4. ▶️ Một việc tiếp
-→ 27/10: SC01 (385) đã kiểm 11:27 not_found → hẹn lại 16:21 g27, tối kiểm `fb_group.py stats --post-id 385`; 15:00 `vao_nhom --so 13` vào 5 nhóm ngành 792–796 (q 66), 797–801 + 414 + 745 (q 65) để 28/10; nhóm ngành đăng thử từ 30/10 với câu chào nghề (gỗ, gà đồi, kinh doanh); tối đếm bài nhóm cộng đồng hiện/chờ duyệt; viết lô bài 28/10+ ưu tiên nhóm cộng đồng mới (781–791 đăng từ 30/10).
+→ 27/10: bài SC mới (draft): 387 SC03 g33 19:25 hôm nay · 388 SC04 g763 29/10 10:15 · 389 SC05 g750 29/10 15:40 (lint PASS, giống ≤ 0,43) — compliance ĐẠT CÓ GÓP Ý (áp 4 sửa), người dùng 'ok' → approved_human; từ 30/10 thêm bài SC vào g796 Kinh doanh phường BG mới + g745 DN trẻ BG khi đã vào; còn hỏi chủ nhà: gửi xe/biển hiệu khi thuê phần nhỏ, tư cách người đăng, Manulife; SC01 (385) đã kiểm 11:27 not_found → hẹn lại 16:21 g27, tối kiểm `fb_group.py stats --post-id 385`; 15:00 `vao_nhom --so 13` vào 5 nhóm ngành 792–796 (q 66), 797–801 + 414 + 745 (q 65) để 28/10; nhóm ngành đăng thử từ 30/10 với câu chào nghề (gỗ, gà đồi, kinh doanh); tối đếm bài nhóm cộng đồng hiện/chờ duyệt; viết lô bài 28/10+ ưu tiên nhóm cộng đồng mới (781–791 đăng từ 30/10).
 → Tối nay kiểm kết quả 9 bài video (log `data/lich_dang_2026-10-26.log`); 27/10: đo lượt xem/bình luận bài video so với bài ảnh, lead theo mã (YT88, TY51, BH27, YT89, TY65, YT90, BH28, SC01, SC02); trần đã trả 12 (kiểm `config/settings.json`); viết lô bài tuần (thứ Ba) dùng video; SC: thêm bài cho thuê vào nhóm BĐS BG đã vào (g28, g29, g30, g31, g32, g33) + nhóm mới hết làm quen từ 29/10. Còn mở: Manulife còn ở toà không.
 
 ---
