@@ -5,7 +5,7 @@
   "graph_api_version": "v23.0",
   "post_view_metrics": [],
   "limits": {
-    "profile_group_posts_per_day": 16,
+    "profile_group_posts_per_day": 12,
     "profile_group_posts_per_week": 112,
     "min_minutes_between_posts": 25,
     "same_group_min_days": 3

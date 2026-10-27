@@ -4,7 +4,7 @@
 > Cập nhật trước khi kết thúc lượt có thay đổi file (Stop hook). "Việc vừa làm" ≤ 5 dòng, cũ hơn → `workspace/reports/log.md`. Quyết định → `workspace/quyet-dinh.md` (chỉ thêm, không xoá).
 > STATE đầy đủ trước khi dựng khuôn: `workspace/reports/log.md` mục "Lưu trữ nguyên văn STATE.md lúc 20/10/2026 18:43" (bản trước 28/09: cũng trong log).
 
-Cập nhật lần cuối: 2026-10-26 10:0x (video định vị Sentinel-2 sửa nhãn, đang dựng; giọng giữ edge-tts cho bản thử)
+Cập nhật lần cuối: 2026-10-27 08:2x (lịch tìm lead 27/10: 0 khách mới từ nhóm, giữ thử nghiệm tới 29/10)
 
 ## 1. Thông điệp chính
 Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo bài · B Đánh giá · C Đăng bài · D Quản lý quảng cáo** — để sau này đóng gói thành app nhân rộng.
@@ -29,6 +29,7 @@ Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo
 5. Cách đóng gói, giá thử M1, chi phí đội mỗi tháng (`lo-trinh-san-pham-app.md` §7) — **người dùng** — 30/11.
 
 ## 4. ▶️ Một việc tiếp
+→ 27/10: kiểm SC01 (385) có lên ở g27 không (giờ trống 11:00); tối đếm bài nhóm cộng đồng hiện/chờ duyệt; viết lô bài 28/10+ ưu tiên nhóm cộng đồng mới (781–791 đăng từ 30/10).
 → Tối nay kiểm kết quả 9 bài video (log `data/lich_dang_2026-10-26.log`); 27/10: đo lượt xem/bình luận bài video so với bài ảnh, lead theo mã (YT88, TY51, BH27, YT89, TY65, YT90, BH28, SC01, SC02); trần đã trả 12 (kiểm `config/settings.json`); viết lô bài tuần (thứ Ba) dùng video; SC: thêm bài cho thuê vào nhóm BĐS BG đã vào (g28, g29, g30, g31, g32, g33) + nhóm mới hết làm quen từ 29/10. Còn mở: Manulife còn ở toà không.
 
 ---
@@ -45,11 +46,9 @@ Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo
 - Bẫy máy: cài phần mềm/pip ghi AppData phải chạy qua `explorer.exe <file.cmd>` (hộp cát MSIX).
 
 ## Việc vừa làm (≤ 5 dòng)
+- 2026-10-27 08:4x **Dồn đăng nhóm cộng đồng mới** (người dùng): 7 bài hôm nay (357–360, 363, 365, 366) đổi sang 7 nhóm cộng đồng chưa từng đăng (phụ huynh BN ×2, đồng hương Đài Loan, cộng đồng Yên Thế, Diều Sáo Tân Yên, 2 hội sales), thêm câu chào theo nhóm, lint 7/7. Không có nhóm người cao tuổi/lễ hội riêng Yên Thế → nhập 11 ứng viên cộng đồng 781–791 (có 1 nhóm người cao tuổi toàn quốc để thử); vào 6 lúc 08:3x + 5 lúc 15:00 (lệnh nền), đăng từ 30/10. SC02 386 đã hiện 22:25 26/10; SC01 385 lỗi hộp soạn không đóng — chưa kiểm có lên không.
+- 2026-10-27 08:2x **Tìm lead 27/10:** quét đêm 26/10 OK, 0 tìm mua · 0 hỏi giá/sổ; sổ khách 0 mới (7 ngày: 2 QC · 2 Fanpage · 0 nhóm; **6 ngày không ai ghi sổ**); A 56/B 7 bài đều 0 bình luận → giữ cả T2–T4, chấm sáng 29/10; nhắc đội KD ghi sổ. Báo cáo `workspace/reports/lead-ngay/2026-10-27.md`.
 - 2026-10-26 ~15:00 **Dựng repo Git** (người dùng 'làm tẹt ga' dù hạn mức tuần 72%): `git init -b main`, commit đầu 597 tệp ~5,6 MB; README.md A–Z; .gitignore chặn .env, .profiles, data/ (DB khách), assets (1,2 GB, chỉ giữ cấu hình), báo cáo lead/QC, ảnh xem trước; requirements thêm imageio-ffmpeg, edge-tts; .env.example thêm Azure. **Đã push** ~15:30 lên https://github.com/AlexanderTuanNg/facebook-ads-nhat (nhánh main, 670 object, 1,47 MB; đăng nhập GitHub bằng mã thiết bị do người dùng tự nhập). Từ nay: `git add -A && git commit && git push` sau mỗi bước.
-- 2026-10-26 14:31 **Bỏ nhóm bị từ chối suốt** (người dùng): 20 nhóm ≥2 bài mà 0 bài hiện → bo_qua; rời hẳn 4 nhóm 'Tin Hữu Lũng' (291/293/294/295, `tools/roi_nhom.py` mới); 8 bài đã hẹn ở nhóm bị bỏ → lịch tự đổi nhóm; SC 386 → g29. Bài video 311 (Tin Hữu Lũng) coi như mất (nhóm không duyệt). Quy tắc lưu memory `feedback-bo-nhom-tu-choi`.
-- 2026-10-26 14:23 **Bài video GH đầu tiên 311 đăng được** (g291 Tin Hữu Lũng, chờ duyệt) → 351–354 cũng đổi sang video: hôm nay 7 bài GH video (311, 349 15:18, 350 16:02, 351 17:54, 352 19:10, 353 20:40, 354 21:28) + SC 385 (17:10 g27, dời từ 21:55 theo người dùng) / 386 (22:22 g29) video; nhãn AI dòng cuối; `fb_group.py` gắn .mp4 (chờ tải 20 giây, nút Đăng tới 4 phút). Vào nhóm 14:10: 750, 764, 765 đã vào; 16:12 vào thêm (tổng 8). Trần 14 riêng hôm nay, 23:59 trả 12.
-- 2026-10-26 13:08–13:20 **Tìm nhóm đợt 2** (14 từ khoá cho thuê nhà/văn phòng/sang nhượng/M&A, chỉ đọc): 483 nhóm → nhập 18 ứng viên id 763–780: 8 nhóm BĐS lớn BG–BN (115–235K) q=62, 5 nhóm sang nhượng/cho thuê mặt bằng q=61, 5 nhóm M&A dự án/toà nhà (topic 'ma') q=60,5. Hàng chờ: 31 nhóm cho thuê/doanh nghiệp/M&A trước nhóm cộng đồng GH. Hôm nay vào 8 nhóm (14:10 + 16:12). Sao lưu DB `data/backup/marketing-2026-10-26-truoc-nhom-dot2.db`; kết quả thô `data/tim_nhom_20261026_1308.jsonl`.
-- 2026-10-26 ~12:55 **NGƯỜI DÙNG DUYỆT 3 VIDEO** ('ok r, đưa tôi cả 3 video đây') → đã gửi bản giao `assets/video-da-duyet/2026-10-26/` (1-golden-hill-dinh-vi 23,2 giây · 2-sun-city-dinh-vi 34,1 giây · 3-sun-city-ben-trong-van-phong 28,9 giây). Nhãn giọng AI: không in trên hình; ghi ở DÒNG CUỐI chú thích '* Video sử dụng giọng đọc AI' (người dùng 26/10). Hạn mức tuần 67% lúc 12:50.
 
 ## Đang chờ người dùng từ trước (chi tiết ở log)
 11 việc nhỏ còn chờ (ảnh tối, PIN Messenger, nhóm 39, mốc giá KM7 trước 26/10, tiêu đề "CHỈ DƯỚI 1 TỶ", cột điện, ưu đãi 48 giờ, chế độ strict…): nguyên văn ở `workspace/reports/log.md` mục "Chuyển từ STATE 2026-10-21 (Đang chờ…)".
