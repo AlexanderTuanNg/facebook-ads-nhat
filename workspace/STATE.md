@@ -4,7 +4,7 @@
 > Cập nhật trước khi kết thúc lượt có thay đổi file (Stop hook). "Việc vừa làm" ≤ 5 dòng, cũ hơn → `workspace/reports/log.md`. Quyết định → `workspace/quyet-dinh.md` (chỉ thêm, không xoá).
 > STATE đầy đủ trước khi dựng khuôn: `workspace/reports/log.md` mục "Lưu trữ nguyên văn STATE.md lúc 20/10/2026 18:43" (bản trước 28/09: cũng trong log).
 
-Cập nhật lần cuối: 2026-10-27 08:2x (lịch tìm lead 27/10: 0 khách mới từ nhóm, giữ thử nghiệm tới 29/10)
+Cập nhật lần cuối: 2026-10-27 11:3x (đợt 4 nhóm ngành nghề: gỗ/ván bóc/gà đồi/kinh doanh 792–801; SC01 385 không lên → đăng lại 16:21)
 
 ## 1. Thông điệp chính
 Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo bài · B Đánh giá · C Đăng bài · D Quản lý quảng cáo** — để sau này đóng gói thành app nhân rộng.
@@ -29,7 +29,7 @@ Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo
 5. Cách đóng gói, giá thử M1, chi phí đội mỗi tháng (`lo-trinh-san-pham-app.md` §7) — **người dùng** — 30/11.
 
 ## 4. ▶️ Một việc tiếp
-→ 27/10: kiểm SC01 (385) có lên ở g27 không (giờ trống 11:00); tối đếm bài nhóm cộng đồng hiện/chờ duyệt; viết lô bài 28/10+ ưu tiên nhóm cộng đồng mới (781–791 đăng từ 30/10).
+→ 27/10: SC01 (385) đã kiểm 11:27 not_found → hẹn lại 16:21 g27, tối kiểm `fb_group.py stats --post-id 385`; 15:00 `vao_nhom --so 13` vào 5 nhóm ngành 792–796 (q 66), 797–801 + 414 + 745 (q 65) để 28/10; nhóm ngành đăng thử từ 30/10 với câu chào nghề (gỗ, gà đồi, kinh doanh); tối đếm bài nhóm cộng đồng hiện/chờ duyệt; viết lô bài 28/10+ ưu tiên nhóm cộng đồng mới (781–791 đăng từ 30/10).
 → Tối nay kiểm kết quả 9 bài video (log `data/lich_dang_2026-10-26.log`); 27/10: đo lượt xem/bình luận bài video so với bài ảnh, lead theo mã (YT88, TY51, BH27, YT89, TY65, YT90, BH28, SC01, SC02); trần đã trả 12 (kiểm `config/settings.json`); viết lô bài tuần (thứ Ba) dùng video; SC: thêm bài cho thuê vào nhóm BĐS BG đã vào (g28, g29, g30, g31, g32, g33) + nhóm mới hết làm quen từ 29/10. Còn mở: Manulife còn ở toà không.
 
 ---
@@ -46,6 +46,7 @@ Người dùng 20/10: **bỏ việc offline, chỉ làm 4 khâu số — A Tạo
 - Bẫy máy: cài phần mềm/pip ghi AppData phải chạy qua `explorer.exe <file.cmd>` (hộp cát MSIX).
 
 ## Việc vừa làm (≤ 5 dòng)
+- 2026-10-27 09:0x **Báo cáo QC 9h 27/10:** Meta vẫn chưa đọc được (ngày thứ 5, meta-ads cần đăng nhập lại); sổ 7 ngày 4 khách (QC-VM1 2 · fanpage 2), 0 xem đất, 5 ngày 0 dòng mới; QC-CS10 0 khách, ước đã chi ~1,4 tr → [VIỆC] xem lại tin chào và người trực. Email chưa gửi (thiếu công cụ Gmail + file địa chỉ). `workspace/reports/qc-sang/2026-10-27.md`
 - 2026-10-27 08:4x **Dồn đăng nhóm cộng đồng mới** (người dùng): 7 bài hôm nay (357–360, 363, 365, 366) đổi sang 7 nhóm cộng đồng chưa từng đăng (phụ huynh BN ×2, đồng hương Đài Loan, cộng đồng Yên Thế, Diều Sáo Tân Yên, 2 hội sales), thêm câu chào theo nhóm, lint 7/7. Không có nhóm người cao tuổi/lễ hội riêng Yên Thế → nhập 11 ứng viên cộng đồng 781–791 (có 1 nhóm người cao tuổi toàn quốc để thử); vào 6 lúc 08:3x + 5 lúc 15:00 (lệnh nền), đăng từ 30/10. SC02 386 đã hiện 22:25 26/10; SC01 385 lỗi hộp soạn không đóng — chưa kiểm có lên không.
 - 2026-10-27 08:2x **Tìm lead 27/10:** quét đêm 26/10 OK, 0 tìm mua · 0 hỏi giá/sổ; sổ khách 0 mới (7 ngày: 2 QC · 2 Fanpage · 0 nhóm; **6 ngày không ai ghi sổ**); A 56/B 7 bài đều 0 bình luận → giữ cả T2–T4, chấm sáng 29/10; nhắc đội KD ghi sổ. Báo cáo `workspace/reports/lead-ngay/2026-10-27.md`.
 - 2026-10-26 ~15:00 **Dựng repo Git** (người dùng 'làm tẹt ga' dù hạn mức tuần 72%): `git init -b main`, commit đầu 597 tệp ~5,6 MB; README.md A–Z; .gitignore chặn .env, .profiles, data/ (DB khách), assets (1,2 GB, chỉ giữ cấu hình), báo cáo lead/QC, ảnh xem trước; requirements thêm imageio-ffmpeg, edge-tts; .env.example thêm Azure. **Đã push** ~15:30 lên https://github.com/AlexanderTuanNg/facebook-ads-nhat (nhánh main, 670 object, 1,47 MB; đăng nhập GitHub bằng mã thiết bị do người dùng tự nhập). Từ nay: `git add -A && git commit && git push` sau mỗi bước.
