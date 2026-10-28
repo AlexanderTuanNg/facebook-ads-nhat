@@ -160,8 +160,23 @@ def _prepare(con, post_id: int, want_arm: str):
     return post, group, acc, body, images
 
 
+def _dong_hop_chao(page):
+    """Đóng hộp "chào mừng thành viên mới" của nhóm (28/10: bài 376 hỏng vì hộp này che ô soạn bài).
+    Chỉ bấm "Tiếp tục"/"Continue" trong hộp có chữ "chào mừng"/"Welcome"; không bấm gì khác."""
+    hop = page.get_by_role("dialog").filter(has_text=re.compile(r"chào mừng|welcome", re.I))
+    if hop.count() == 0:
+        return False
+    nut = hop.first.get_by_role("button", name=re.compile(r"^(Tiếp tục|Continue)$", re.I))
+    if nut.count() == 0:
+        return False
+    nut.first.click()
+    page.wait_for_timeout(1500)
+    return True
+
+
 def _fill_composer(page, body: str, images: list, human: bool, strict_images: bool | None = None):
     ab = settings()["arm_b"]
+    _dong_hop_chao(page)
     locate(page, "composer_open", 15000).click()
     locate(page, "composer_dialog", 10000)
     box = locate(page, "composer_textbox", 10000)
